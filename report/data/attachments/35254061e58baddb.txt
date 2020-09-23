@@ -1,0 +1,6 @@
+[32mINFO    [0m root:page_app_article.py:15 正在调用查询频道方法
+[32mINFO    [0m root:app_base.py:37 正在调用从右向左滑动方法
+[32mINFO    [0m root:base.py:14 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+[31m[1mERROR   [0m root:test06_app_article.py:40 Message: 
+
+[31m[1mERROR   [0m root:base.py:40 出现错误，正在截图

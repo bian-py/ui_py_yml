@@ -1,0 +1,144 @@
+{
+  "uid" : "99a300f7dd6d73b2",
+  "name" : "test_mis_audit_2_BBB88804",
+  "fullName" : "scripts.test04_mis_audit.TestMisAudit#test_mis_audit_2_BBB88804",
+  "historyId" : "c631083ebd4a9d5176a7e189ff9955c0",
+  "time" : {
+    "start" : 1600851800297,
+    "stop" : 1600851840822,
+    "duration" : 40525
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "a = (<scripts.test04_mis_audit.TestMisAudit testMethod=test_mis_audit_2_BBB88804>,)\n\n    @wraps(func)\n    def standalone_func(*a):\n>       return func(*(a + p.args), **p.kwargs)\n\ne:\\python38\\lib\\site-packages\\parameterized\\parameterized.py:530: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nscripts\\test04_mis_audit.py:39: in test_mis_audit\n    self.au.page_mis_audit(title, channel)\npages\\page_mis_audit.py:60: in page_mis_audit\n    self.article_id = self.page_mis_get_article_id()\npages\\page_mis_audit.py:37: in page_mis_get_article_id\n    return self.base_get_text(pages.mis_id)\nbase\\base.py:31: in base_get_text\n    return self.base_get_element(loc).text\nbase\\base.py:15: in base_get_element\n    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll) \\\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a96362b0659525606f8d5b8b1f9c7208\")>\nmethod = <function Base.base_get_element.<locals>.<lambda> at 0x0000017B7611A940>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\ne:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1600851548969,
+      "stop" : 1600851554359,
+      "duration" : 5390
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "a = (<scripts.test04_mis_audit.TestMisAudit testMethod=test_mis_audit_2_BBB88804>,)\n\n    @wraps(func)\n    def standalone_func(*a):\n>       return func(*(a + p.args), **p.kwargs)\n\ne:\\python38\\lib\\site-packages\\parameterized\\parameterized.py:530: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nscripts\\test04_mis_audit.py:39: in test_mis_audit\n    self.au.page_mis_audit(title, channel)\npages\\page_mis_audit.py:60: in page_mis_audit\n    self.article_id = self.page_mis_get_article_id()\npages\\page_mis_audit.py:37: in page_mis_get_article_id\n    return self.base_get_text(pages.mis_id)\nbase\\base.py:31: in base_get_text\n    return self.base_get_element(loc).text\nbase\\base.py:15: in base_get_element\n    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll) \\\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a96362b0659525606f8d5b8b1f9c7208\")>\nmethod = <function Base.base_get_element.<locals>.<lambda> at 0x0000017B7611A940>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\ne:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69d7089fbacbfaaf",
+      "name" : "log",
+      "source" : "69d7089fbacbfaaf.txt",
+      "type" : "text/plain",
+      "size" : 7292
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1600851862558,
+      "stop" : 1600851864760,
+      "duration" : 2202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test04_mis_audit"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisAudit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DGCGN8L"
+  }, {
+    "name" : "thread",
+    "value" : "11956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test04_mis_audit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bff2f163ee441e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600851754386,
+        "stop" : 1600851795255,
+        "duration" : 40869
+      }
+    }, {
+      "uid" : "9d993a78692ed2e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600851708503,
+        "stop" : 1600851749340,
+        "duration" : 40837
+      }
+    }, {
+      "uid" : "d19b2b17b93e2b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600851309870,
+        "stop" : 1600851331377,
+        "duration" : 21507
+      }
+    }, {
+      "uid" : "c1d63ee7091f9e1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600768341599,
+        "stop" : 1600768363120,
+        "duration" : 21521
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "99a300f7dd6d73b2.json",
+  "parameterValues" : [ ]
+}

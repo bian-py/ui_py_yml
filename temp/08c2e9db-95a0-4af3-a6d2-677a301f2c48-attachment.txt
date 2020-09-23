@@ -1,0 +1,16 @@
+[32mINFO    [0m root:base.py:10 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="1e9ff4328d061880285a7794063458e6")>
+[32mINFO    [0m root:page_mis_login.py:23 输入用户名testid
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '[placeholder="用户名"]')
+[32mINFO    [0m root:base.py:24 清空元素：('css selector', '[placeholder="用户名"]')
+[32mINFO    [0m root:base.py:26 在('css selector', '[placeholder="用户名"]')元素上，输入testid
+[32mINFO    [0m root:page_mis_login.py:25 输入密码testpwd123
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '[placeholder="密码"]')
+[32mINFO    [0m root:base.py:24 清空元素：('css selector', '[placeholder="密码"]')
+[32mINFO    [0m root:base.py:26 在('css selector', '[placeholder="密码"]')元素上，输入testpwd123
+[32mINFO    [0m root:page_mis_login.py:27 点击登录按钮
+[32mINFO    [0m root:base.py:19 点击元素：('css selector', '#inp1')
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '#inp1')
+[32mINFO    [0m root:test03_mis_login.py:39 正在进行断言
+[32mINFO    [0m root:base.py:30 获取元素('css selector', '.user_info')的文本信息
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '.user_info')
+[32mINFO    [0m root:test03_mis_login.py:43 断言正确

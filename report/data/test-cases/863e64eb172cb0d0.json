@@ -1,0 +1,106 @@
+{
+  "uid" : "863e64eb172cb0d0",
+  "name" : "test_mp_login[13812345678-246810]",
+  "fullName" : "scripts.test01_mp_login.TestMpLogin#test_mp_login",
+  "historyId" : "29dcb3f08dac8a98cbb9274cf3cfcc60",
+  "time" : {
+    "start" : 1600846705993,
+    "stop" : 1600846707819,
+    "duration" : 1826
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600846699969,
+      "stop" : 1600846705992,
+      "duration" : 6023
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ae6a97a0a1fa43ca",
+      "name" : "log",
+      "source" : "ae6a97a0a1fa43ca.txt",
+      "type" : "text/plain",
+      "size" : 1399
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600846707823,
+      "stop" : 1600846709948,
+      "duration" : 2125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test01_mp_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMpLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DGCGN8L"
+  }, {
+    "name" : "thread",
+    "value" : "19196-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test01_mp_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'246810'"
+  }, {
+    "name" : "username",
+    "value" : "'13812345678'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "863e64eb172cb0d0.json",
+  "parameterValues" : [ "'246810'", "'13812345678'" ]
+}

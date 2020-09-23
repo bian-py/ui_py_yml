@@ -1,0 +1,28 @@
+[32mINFO    [0m root:test04_mis_audit.py:38 调用审核文章的组合业务方法
+[32mINFO    [0m root:page_mis_audit.py:47 点击信息管理
+[32mINFO    [0m root:base.py:19 点击元素：('xpath', "//*[text()='信息管理']/.")
+[32mINFO    [0m root:base.py:14 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+[32mINFO    [0m root:page_mis_audit.py:49 点击内容审核
+[32mINFO    [0m root:base.py:19 点击元素：('xpath', "//*[text()='内容审核']/.")
+[32mINFO    [0m root:base.py:14 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+[32mINFO    [0m root:page_mis_audit.py:51 输入要搜索的文章标题
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '[placeholder="请输入: 文章名称"]')
+[32mINFO    [0m root:base.py:24 清空元素：('css selector', '[placeholder="请输入: 文章名称"]')
+[32mINFO    [0m root:base.py:26 在('css selector', '[placeholder="请输入: 文章名称"]')元素上，输入BBB88804
+[32mINFO    [0m root:page_mis_audit.py:53 输入查询频道
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '[placeholder="请输入: 频道"]')
+[32mINFO    [0m root:base.py:24 清空元素：('css selector', '[placeholder="请输入: 频道"]')
+[32mINFO    [0m root:base.py:26 在('css selector', '[placeholder="请输入: 频道"]')元素上，输入数据库
+[32mINFO    [0m root:page_mis_audit.py:55 选择查询状态
+[32mINFO    [0m root:web_base.py:15 点击复选框
+[32mINFO    [0m root:base.py:19 点击元素：('css selector', '[placeholder="请选择状态"]')
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+[32mINFO    [0m root:web_base.py:19 点击频道：待审核
+[32mINFO    [0m root:base.py:19 点击元素：('xpath', '//*[text()="待审核"]')
+[32mINFO    [0m root:base.py:14 正在查找元素：('xpath', '//*[text()="待审核"]')
+[32mINFO    [0m root:page_mis_audit.py:57 点击搜索按钮
+[32mINFO    [0m root:base.py:19 点击元素：('css selector', '.find')
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '.find')
+[32mINFO    [0m root:page_mis_audit.py:59 开始获取文章ID
+[32mINFO    [0m root:base.py:30 获取元素('css selector', '.cell>span')的文本信息
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '.cell>span')

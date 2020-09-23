@@ -1,0 +1,14 @@
+[32mINFO    [0m root:base.py:10 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e34fd90caf7651773c41e5267c0afb07")>
+[32mINFO    [0m root:page_mp_login.py:29 正在调用自媒体登录业务方法，用户名：13812345678，密码：246810
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '[placeholder="请输入手机号"]')
+[32mINFO    [0m root:base.py:24 清空元素：('css selector', '[placeholder="请输入手机号"]')
+[32mINFO    [0m root:base.py:26 在('css selector', '[placeholder="请输入手机号"]')元素上，输入13812345678
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '[placeholder="验证码"]')
+[32mINFO    [0m root:base.py:24 清空元素：('css selector', '[placeholder="验证码"]')
+[32mINFO    [0m root:base.py:26 在('css selector', '[placeholder="验证码"]')元素上，输入246810
+[32mINFO    [0m root:base.py:19 点击元素：('css selector', '.el-button--primary')
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '.el-button--primary')
+[32mINFO    [0m root:test01_mp_login.py:39 正在进行断言
+[32mINFO    [0m root:base.py:30 获取元素('css selector', '.user-name')的文本信息
+[32mINFO    [0m root:base.py:14 正在查找元素：('css selector', '.user-name')
+[32mINFO    [0m root:test01_mp_login.py:41 断言正确

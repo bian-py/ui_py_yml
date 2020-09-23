@@ -1,0 +1,453 @@
+2020-09-22 17:20:26,904 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="7fc8222e20231d2791e5468f196c8c6f")>
+2020-09-22 17:20:26,905 INFO [page_mp_login.py(page_mp_login:29)] - 正在调用自媒体登录业务方法，用户名：13812345678，密码：246810
+2020-09-22 17:20:26,906 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:20:26,922 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:20:26,955 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入手机号"]')元素上，输入13812345678
+2020-09-22 17:20:27,032 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:20:27,040 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:20:27,066 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="验证码"]')元素上，输入246810
+2020-09-22 17:20:28,117 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary')
+2020-09-22 17:20:28,117 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary')
+2020-09-22 17:20:28,189 INFO [test01_mp_login.py(test_mp_login:39)] - 正在进行断言
+2020-09-22 17:20:28,189 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.user-name')的文本信息
+2020-09-22 17:20:28,190 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.user-name')
+2020-09-22 17:20:28,718 INFO [test01_mp_login.py(test_mp_login:41)] - 断言正确
+2020-09-22 17:38:02,747 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="1db32de71691f6575011b660e9fd72df")>
+2020-09-22 17:38:02,748 INFO [page_mp_login.py(page_mp_login:29)] - 正在调用自媒体登录业务方法，用户名：13812345678，密码：246810
+2020-09-22 17:38:02,749 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:38:02,760 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:38:02,795 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入手机号"]')元素上，输入13812345678
+2020-09-22 17:38:02,863 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:38:02,873 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:38:02,899 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="验证码"]')元素上，输入246810
+2020-09-22 17:38:03,953 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary')
+2020-09-22 17:38:03,954 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary')
+2020-09-22 17:38:04,037 INFO [test01_mp_login.py(test_mp_login:39)] - 正在进行断言
+2020-09-22 17:38:04,038 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.user-name')的文本信息
+2020-09-22 17:38:04,038 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.user-name')
+2020-09-22 17:38:04,571 INFO [test01_mp_login.py(test_mp_login:41)] - 断言正确
+2020-09-22 17:44:37,810 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b5a508d224886fdc28c79220111a9b04")>
+2020-09-22 17:44:37,812 INFO [page_mp_login.py(page_mp_login:29)] - 正在调用自媒体登录业务方法，用户名：13812345678，密码：246810
+2020-09-22 17:44:37,812 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:44:37,828 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:44:37,899 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入手机号"]')元素上，输入13812345678
+2020-09-22 17:44:38,007 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:44:38,020 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:44:38,053 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="验证码"]')元素上，输入246810
+2020-09-22 17:44:39,116 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary')
+2020-09-22 17:44:39,116 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary')
+2020-09-22 17:44:39,169 INFO [test01_mp_login.py(test_mp_login:39)] - 正在进行断言
+2020-09-22 17:44:39,169 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.user-name')的文本信息
+2020-09-22 17:44:39,169 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.user-name')
+2020-09-22 17:44:39,707 INFO [test01_mp_login.py(test_mp_login:41)] - 断言正确
+2020-09-22 17:46:42,125 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e34fd90caf7651773c41e5267c0afb07")>
+2020-09-22 17:46:42,128 INFO [page_mp_login.py(page_mp_login:29)] - 正在调用自媒体登录业务方法，用户名：13812345678，密码：246810
+2020-09-22 17:46:42,128 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:46:42,140 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:46:42,178 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入手机号"]')元素上，输入13812345678
+2020-09-22 17:46:42,247 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:46:42,257 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:46:42,286 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="验证码"]')元素上，输入246810
+2020-09-22 17:46:43,338 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary')
+2020-09-22 17:46:43,338 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary')
+2020-09-22 17:46:43,422 INFO [test01_mp_login.py(test_mp_login:39)] - 正在进行断言
+2020-09-22 17:46:43,422 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.user-name')的文本信息
+2020-09-22 17:46:43,422 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.user-name')
+2020-09-22 17:46:43,953 INFO [test01_mp_login.py(test_mp_login:41)] - 断言正确
+2020-09-22 17:50:26,522 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ec6b379286e48dddc38b0ffd12a41ff7")>
+2020-09-22 17:50:26,523 INFO [page_mp_login.py(page_mp_login:29)] - 正在调用自媒体登录业务方法，用户名：13812345678，密码：246810
+2020-09-22 17:50:26,524 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:50:26,559 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:50:26,622 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入手机号"]')元素上，输入13812345678
+2020-09-22 17:50:26,729 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:50:26,741 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:50:26,776 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="验证码"]')元素上，输入246810
+2020-09-22 17:50:27,833 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary')
+2020-09-22 17:50:27,833 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary')
+2020-09-22 17:50:27,882 INFO [test01_mp_login.py(test_mp_login:39)] - 正在进行断言
+2020-09-22 17:50:27,882 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.user-name')的文本信息
+2020-09-22 17:50:27,882 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.user-name')
+2020-09-22 17:50:28,539 INFO [test01_mp_login.py(test_mp_login:41)] - 断言正确
+2020-09-22 17:50:36,820 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="3d859cc6c59e10bcf208523c04f52168")>
+2020-09-22 17:50:36,820 INFO [test02_mp_article.py(setUpClass:29)] - 调用登录成功方法
+2020-09-22 17:50:36,820 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="3d859cc6c59e10bcf208523c04f52168")>
+2020-09-22 17:50:36,820 INFO [page_mp_login.py(page_mp_login_article:37)] - 正在调用自媒体登录业务方法，用户名：13812345678，密码：246810
+2020-09-22 17:50:36,821 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:50:36,832 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入手机号"]')
+2020-09-22 17:50:36,867 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入手机号"]')元素上，输入13812345678
+2020-09-22 17:50:36,943 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:50:36,953 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="验证码"]')
+2020-09-22 17:50:36,981 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="验证码"]')元素上，输入246810
+2020-09-22 17:50:38,033 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary')
+2020-09-22 17:50:38,033 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary')
+2020-09-22 17:50:38,086 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:50:41,631 INFO [page_mp_article.py(page_click_content_management:15)] - 点击内容管理
+2020-09-22 17:50:41,631 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='内容管理']/..")
+2020-09-22 17:50:41,631 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2020-09-22 17:50:42,674 INFO [page_mp_article.py(page_click_issue_article:20)] - 点击发布文章
+2020-09-22 17:50:42,674 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:50:42,674 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:50:43,736 INFO [page_mp_article.py(page_input_article_title:25)] - 输入文章标题：BBB88802
+2020-09-22 17:50:43,736 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:50:43,746 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:50:43,774 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="文章名称"]')元素上，输入BBB88802
+2020-09-22 17:50:44,883 INFO [page_mp_article.py(page_input_article:30)] - 切换表单
+2020-09-22 17:50:44,883 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2020-09-22 17:50:45,928 INFO [page_mp_article.py(page_input_article:33)] - 输入文章内容
+2020-09-22 17:50:45,928 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#tinymce')
+2020-09-22 17:50:45,939 INFO [base.py(base_input:24)] - 清空元素：('css selector', '#tinymce')
+2020-09-22 17:50:45,961 INFO [base.py(base_input:26)] - 在('css selector', '#tinymce')元素上，输入这是一条Btytest自动化测试用例
+2020-09-22 17:50:46,132 INFO [page_mp_article.py(page_input_article:35)] - 切换回原始目录
+2020-09-22 17:50:47,136 INFO [page_mp_article.py(page_select_bookface:40)] - 选择文章页面图片
+2020-09-22 17:50:47,136 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:50:47,136 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:50:48,187 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:50:48,187 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:50:48,187 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:50:49,254 INFO [web_base.py(web_base_click_element:19)] - 点击频道：数据库
+2020-09-22 17:50:49,254 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:50:49,254 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:50:50,309 INFO [page_mp_article.py(page_click_issue_btn:49)] - 点击发布按钮
+2020-09-22 17:50:50,309 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:50:50,310 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:50:51,362 INFO [test02_mp_article.py(test_mp_article:39)] - 调用发布文章业务组合方法
+2020-09-22 17:50:51,362 INFO [test02_mp_article.py(test_mp_article:41)] - 开始断言
+2020-09-22 17:50:51,362 INFO [page_mp_article.py(page_get_issue_result:54)] - 获取发布结果
+2020-09-22 17:50:52,362 INFO [base.py(base_get_text:30)] - 获取元素('xpath', "//*[contains(text(),'新增文章成功')]")的文本信息
+2020-09-22 17:50:52,363 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+2020-09-22 17:50:52,386 INFO [test02_mp_article.py(test_mp_article:43)] - 断言成功
+2020-09-22 17:50:52,391 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:50:52,410 INFO [page_mp_article.py(page_click_issue_article:20)] - 点击发布文章
+2020-09-22 17:50:52,410 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:50:52,410 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:50:53,459 INFO [page_mp_article.py(page_input_article_title:25)] - 输入文章标题：BBB88803
+2020-09-22 17:50:53,459 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:50:53,468 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:50:53,498 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="文章名称"]')元素上，输入BBB88803
+2020-09-22 17:50:54,590 INFO [page_mp_article.py(page_input_article:30)] - 切换表单
+2020-09-22 17:50:54,590 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2020-09-22 17:50:55,616 INFO [page_mp_article.py(page_input_article:33)] - 输入文章内容
+2020-09-22 17:50:55,616 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#tinymce')
+2020-09-22 17:50:55,623 INFO [base.py(base_input:24)] - 清空元素：('css selector', '#tinymce')
+2020-09-22 17:50:55,645 INFO [base.py(base_input:26)] - 在('css selector', '#tinymce')元素上，输入这是一条Btytest自动化测试用例
+2020-09-22 17:50:55,794 INFO [page_mp_article.py(page_input_article:35)] - 切换回原始目录
+2020-09-22 17:50:56,797 INFO [page_mp_article.py(page_select_bookface:40)] - 选择文章页面图片
+2020-09-22 17:50:56,797 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:50:56,797 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:50:57,841 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:50:57,841 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:50:57,841 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:50:58,896 INFO [web_base.py(web_base_click_element:19)] - 点击频道：数据库
+2020-09-22 17:50:58,896 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:50:58,896 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:50:59,946 INFO [page_mp_article.py(page_click_issue_btn:49)] - 点击发布按钮
+2020-09-22 17:50:59,946 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:50:59,946 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:51:00,986 INFO [test02_mp_article.py(test_mp_article:39)] - 调用发布文章业务组合方法
+2020-09-22 17:51:00,986 INFO [test02_mp_article.py(test_mp_article:41)] - 开始断言
+2020-09-22 17:51:00,986 INFO [page_mp_article.py(page_get_issue_result:54)] - 获取发布结果
+2020-09-22 17:51:01,986 INFO [base.py(base_get_text:30)] - 获取元素('xpath', "//*[contains(text(),'新增文章成功')]")的文本信息
+2020-09-22 17:51:01,986 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+2020-09-22 17:51:02,006 INFO [test02_mp_article.py(test_mp_article:43)] - 断言成功
+2020-09-22 17:51:02,010 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:51:02,026 INFO [page_mp_article.py(page_click_issue_article:20)] - 点击发布文章
+2020-09-22 17:51:02,027 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:51:02,027 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:51:03,074 INFO [page_mp_article.py(page_input_article_title:25)] - 输入文章标题：BBB88804
+2020-09-22 17:51:03,074 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:51:03,083 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:51:03,113 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="文章名称"]')元素上，输入BBB88804
+2020-09-22 17:51:04,191 INFO [page_mp_article.py(page_input_article:30)] - 切换表单
+2020-09-22 17:51:04,191 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2020-09-22 17:51:05,220 INFO [page_mp_article.py(page_input_article:33)] - 输入文章内容
+2020-09-22 17:51:05,220 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#tinymce')
+2020-09-22 17:51:05,227 INFO [base.py(base_input:24)] - 清空元素：('css selector', '#tinymce')
+2020-09-22 17:51:05,248 INFO [base.py(base_input:26)] - 在('css selector', '#tinymce')元素上，输入这是一条Btytest自动化测试用例
+2020-09-22 17:51:05,426 INFO [page_mp_article.py(page_input_article:35)] - 切换回原始目录
+2020-09-22 17:51:06,430 INFO [page_mp_article.py(page_select_bookface:40)] - 选择文章页面图片
+2020-09-22 17:51:06,430 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:51:06,430 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:51:07,475 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:51:07,475 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:51:07,475 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:51:08,533 INFO [web_base.py(web_base_click_element:19)] - 点击频道：数据库
+2020-09-22 17:51:08,533 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:51:08,533 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:51:09,583 INFO [page_mp_article.py(page_click_issue_btn:49)] - 点击发布按钮
+2020-09-22 17:51:09,583 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:51:09,583 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:51:10,621 INFO [test02_mp_article.py(test_mp_article:39)] - 调用发布文章业务组合方法
+2020-09-22 17:51:10,621 INFO [test02_mp_article.py(test_mp_article:41)] - 开始断言
+2020-09-22 17:51:10,621 INFO [page_mp_article.py(page_get_issue_result:54)] - 获取发布结果
+2020-09-22 17:51:11,621 INFO [base.py(base_get_text:30)] - 获取元素('xpath', "//*[contains(text(),'新增文章成功')]")的文本信息
+2020-09-22 17:51:11,621 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+2020-09-22 17:51:11,644 INFO [test02_mp_article.py(test_mp_article:43)] - 断言成功
+2020-09-22 17:51:11,650 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:51:11,671 INFO [page_mp_article.py(page_click_issue_article:20)] - 点击发布文章
+2020-09-22 17:51:11,671 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:51:11,671 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2020-09-22 17:51:12,721 INFO [page_mp_article.py(page_input_article_title:25)] - 输入文章标题：BBB88805
+2020-09-22 17:51:12,721 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:51:12,731 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="文章名称"]')
+2020-09-22 17:51:12,758 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="文章名称"]')元素上，输入BBB88805
+2020-09-22 17:51:13,828 INFO [page_mp_article.py(page_input_article:30)] - 切换表单
+2020-09-22 17:51:13,828 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2020-09-22 17:51:14,856 INFO [page_mp_article.py(page_input_article:33)] - 输入文章内容
+2020-09-22 17:51:14,856 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#tinymce')
+2020-09-22 17:51:14,866 INFO [base.py(base_input:24)] - 清空元素：('css selector', '#tinymce')
+2020-09-22 17:51:14,887 INFO [base.py(base_input:26)] - 在('css selector', '#tinymce')元素上，输入这是一条Btytest自动化测试用例
+2020-09-22 17:51:15,054 INFO [page_mp_article.py(page_input_article:35)] - 切换回原始目录
+2020-09-22 17:51:16,057 INFO [page_mp_article.py(page_select_bookface:40)] - 选择文章页面图片
+2020-09-22 17:51:16,057 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:51:16,057 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='自动']")
+2020-09-22 17:51:17,102 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:51:17,102 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:51:17,102 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择"]')
+2020-09-22 17:51:18,156 INFO [web_base.py(web_base_click_element:19)] - 点击频道：数据库
+2020-09-22 17:51:18,156 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:51:18,156 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="数据库"]')
+2020-09-22 17:51:19,206 INFO [page_mp_article.py(page_click_issue_btn:49)] - 点击发布按钮
+2020-09-22 17:51:19,206 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:51:19,206 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//span[text()='发表']/..")
+2020-09-22 17:51:20,249 INFO [test02_mp_article.py(test_mp_article:39)] - 调用发布文章业务组合方法
+2020-09-22 17:51:20,249 INFO [test02_mp_article.py(test_mp_article:41)] - 开始断言
+2020-09-22 17:51:20,249 INFO [page_mp_article.py(page_get_issue_result:54)] - 获取发布结果
+2020-09-22 17:51:21,249 INFO [base.py(base_get_text:30)] - 获取元素('xpath', "//*[contains(text(),'新增文章成功')]")的文本信息
+2020-09-22 17:51:21,249 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+2020-09-22 17:51:21,273 INFO [test02_mp_article.py(test_mp_article:43)] - 断言成功
+2020-09-22 17:51:29,473 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="1e9ff4328d061880285a7794063458e6")>
+2020-09-22 17:51:29,474 INFO [page_mis_login.py(page_mis_login:23)] - 输入用户名testid
+2020-09-22 17:51:29,474 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="用户名"]')
+2020-09-22 17:51:29,494 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="用户名"]')
+2020-09-22 17:51:29,523 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="用户名"]')元素上，输入testid
+2020-09-22 17:51:29,571 INFO [page_mis_login.py(page_mis_login:25)] - 输入密码testpwd123
+2020-09-22 17:51:29,571 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="密码"]')
+2020-09-22 17:51:29,582 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="密码"]')
+2020-09-22 17:51:29,607 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="密码"]')元素上，输入testpwd123
+2020-09-22 17:51:29,646 INFO [page_mis_login.py(page_mis_login:27)] - 点击登录按钮
+2020-09-22 17:51:29,649 INFO [base.py(base_click:19)] - 点击元素：('css selector', '#inp1')
+2020-09-22 17:51:29,650 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#inp1')
+2020-09-22 17:51:29,690 INFO [test03_mis_login.py(test_mis_login:39)] - 正在进行断言
+2020-09-22 17:51:29,690 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.user_info')的文本信息
+2020-09-22 17:51:29,690 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.user_info')
+2020-09-22 17:51:30,218 INFO [test03_mis_login.py(test_mis_login:43)] - 断言正确
+2020-09-22 17:51:37,976 INFO [test04_mis_audit.py(setUpClass:28)] - 调用后台系统登录成功方法
+2020-09-22 17:51:37,976 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="5653d891829dc0de0ceb0e877db084ad")>
+2020-09-22 17:51:37,976 INFO [page_mis_login.py(page_mis_login_success:31)] - 输入用户名testid
+2020-09-22 17:51:37,976 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="用户名"]')
+2020-09-22 17:51:37,992 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="用户名"]')
+2020-09-22 17:51:38,022 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="用户名"]')元素上，输入testid
+2020-09-22 17:51:38,067 INFO [page_mis_login.py(page_mis_login_success:33)] - 输入密码testpwd123
+2020-09-22 17:51:38,067 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="密码"]')
+2020-09-22 17:51:38,078 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="密码"]')
+2020-09-22 17:51:38,104 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="密码"]')元素上，输入testpwd123
+2020-09-22 17:51:38,142 INFO [page_mis_login.py(page_mis_login_success:35)] - 点击登录按钮
+2020-09-22 17:51:38,146 INFO [base.py(base_click:19)] - 点击元素：('css selector', '#inp1')
+2020-09-22 17:51:38,147 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '#inp1')
+2020-09-22 17:51:38,189 INFO [base.py(__init__:10)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="5653d891829dc0de0ceb0e877db084ad")>
+2020-09-22 17:51:38,190 INFO [test04_mis_audit.py(test_mis_audit:38)] - 调用审核文章的组合业务方法
+2020-09-22 17:51:38,190 INFO [page_mis_audit.py(page_mis_audit:47)] - 点击信息管理
+2020-09-22 17:51:39,191 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:51:39,191 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:51:39,241 INFO [page_mis_audit.py(page_mis_audit:49)] - 点击内容审核
+2020-09-22 17:51:40,242 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:51:40,242 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:51:40,343 INFO [page_mis_audit.py(page_mis_audit:51)] - 输入要搜索的文章标题
+2020-09-22 17:51:41,343 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:51:41,353 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:51:41,382 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 文章名称"]')元素上，输入BBB88802
+2020-09-22 17:51:41,433 INFO [page_mis_audit.py(page_mis_audit:53)] - 输入查询频道
+2020-09-22 17:51:42,434 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:51:42,451 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:51:42,486 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 频道"]')元素上，输入数据库
+2020-09-22 17:51:42,522 INFO [page_mis_audit.py(page_mis_audit:55)] - 选择查询状态
+2020-09-22 17:51:42,522 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:51:42,522 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:51:42,522 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:51:43,575 INFO [web_base.py(web_base_click_element:19)] - 点击频道：待审核
+2020-09-22 17:51:43,575 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:51:43,575 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:51:43,623 INFO [page_mis_audit.py(page_mis_audit:57)] - 点击搜索按钮
+2020-09-22 17:51:43,623 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:51:43,623 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:51:48,669 INFO [page_mis_audit.py(page_mis_audit:59)] - 开始获取文章ID
+2020-09-22 17:51:48,669 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.cell>span')的文本信息
+2020-09-22 17:51:48,669 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.cell>span')
+2020-09-22 17:51:48,689 INFO [page_mis_audit.py(page_mis_audit:61)] - 获取的文章ID是1305041722723532800
+2020-09-22 17:51:48,689 INFO [page_mis_audit.py(page_mis_audit:62)] - 点击通过按钮
+2020-09-22 17:51:48,689 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:51:48,689 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:51:50,755 INFO [page_mis_audit.py(page_mis_audit:64)] - 点击确认通过按钮
+2020-09-22 17:51:50,755 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary ')
+2020-09-22 17:51:50,755 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary ')
+2020-09-22 17:51:50,800 INFO [test04_mis_audit.py(test_mis_audit:41)] - 断言开始
+2020-09-22 17:51:53,801 INFO [page_mis_audit.py(page_mis_assert:69)] - 修改查询状态，为已通过审核
+2020-09-22 17:51:53,801 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:51:53,801 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:51:53,801 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:51:54,853 INFO [web_base.py(web_base_click_element:19)] - 点击频道：审核通过
+2020-09-22 17:51:54,853 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:51:54,853 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:51:54,904 INFO [page_mis_audit.py(page_mis_assert:71)] - 点击查询按钮
+2020-09-22 17:51:54,904 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:51:54,904 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:51:59,971 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='1305041722723532800']")
+2020-09-22 17:51:59,983 INFO [web_base.py(web_base_is_exist:27)] - 找到对应文章ID元素
+2020-09-22 17:51:59,983 INFO [test04_mis_audit.py(test_mis_audit:44)] - 断言正确
+2020-09-22 17:51:59,987 INFO [test04_mis_audit.py(test_mis_audit:38)] - 调用审核文章的组合业务方法
+2020-09-22 17:51:59,987 INFO [page_mis_audit.py(page_mis_audit:47)] - 点击信息管理
+2020-09-22 17:52:00,988 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:52:00,988 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:52:01,034 INFO [page_mis_audit.py(page_mis_audit:49)] - 点击内容审核
+2020-09-22 17:52:02,035 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:52:02,035 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:52:02,081 INFO [page_mis_audit.py(page_mis_audit:51)] - 输入要搜索的文章标题
+2020-09-22 17:52:03,082 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:52:03,092 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:52:03,123 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 文章名称"]')元素上，输入BBB88803
+2020-09-22 17:52:03,176 INFO [page_mis_audit.py(page_mis_audit:53)] - 输入查询频道
+2020-09-22 17:52:04,176 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:52:04,187 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:52:04,223 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 频道"]')元素上，输入数据库
+2020-09-22 17:52:04,283 INFO [page_mis_audit.py(page_mis_audit:55)] - 选择查询状态
+2020-09-22 17:52:04,284 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:52:04,284 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:04,284 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:05,322 INFO [web_base.py(web_base_click_element:19)] - 点击频道：待审核
+2020-09-22 17:52:05,322 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:52:05,322 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:52:05,367 INFO [page_mis_audit.py(page_mis_audit:57)] - 点击搜索按钮
+2020-09-22 17:52:05,367 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:52:05,367 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:52:10,400 INFO [page_mis_audit.py(page_mis_audit:59)] - 开始获取文章ID
+2020-09-22 17:52:10,401 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.cell>span')的文本信息
+2020-09-22 17:52:10,401 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.cell>span')
+2020-09-22 17:52:10,415 INFO [page_mis_audit.py(page_mis_audit:61)] - 获取的文章ID是1305037355530321920
+2020-09-22 17:52:10,416 INFO [page_mis_audit.py(page_mis_audit:62)] - 点击通过按钮
+2020-09-22 17:52:10,416 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:52:10,416 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:52:12,450 INFO [page_mis_audit.py(page_mis_audit:64)] - 点击确认通过按钮
+2020-09-22 17:52:12,450 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary ')
+2020-09-22 17:52:12,450 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary ')
+2020-09-22 17:52:12,480 INFO [test04_mis_audit.py(test_mis_audit:41)] - 断言开始
+2020-09-22 17:52:15,480 INFO [page_mis_audit.py(page_mis_assert:69)] - 修改查询状态，为已通过审核
+2020-09-22 17:52:15,480 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:52:15,480 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:15,480 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:16,518 INFO [web_base.py(web_base_click_element:19)] - 点击频道：审核通过
+2020-09-22 17:52:16,518 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:52:16,518 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:52:16,552 INFO [page_mis_audit.py(page_mis_assert:71)] - 点击查询按钮
+2020-09-22 17:52:16,552 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:52:16,553 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:52:21,584 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='1305037355530321920']")
+2020-09-22 17:52:21,594 INFO [web_base.py(web_base_is_exist:27)] - 找到对应文章ID元素
+2020-09-22 17:52:21,594 INFO [test04_mis_audit.py(test_mis_audit:44)] - 断言正确
+2020-09-22 17:52:21,599 INFO [test04_mis_audit.py(test_mis_audit:38)] - 调用审核文章的组合业务方法
+2020-09-22 17:52:21,599 INFO [page_mis_audit.py(page_mis_audit:47)] - 点击信息管理
+2020-09-22 17:52:22,599 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:52:22,599 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:52:22,633 INFO [page_mis_audit.py(page_mis_audit:49)] - 点击内容审核
+2020-09-22 17:52:23,633 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:52:23,633 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:52:23,666 INFO [page_mis_audit.py(page_mis_audit:51)] - 输入要搜索的文章标题
+2020-09-22 17:52:24,667 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:52:24,674 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:52:24,696 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 文章名称"]')元素上，输入BBB88804
+2020-09-22 17:52:24,742 INFO [page_mis_audit.py(page_mis_audit:53)] - 输入查询频道
+2020-09-22 17:52:25,743 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:52:25,751 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:52:25,770 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 频道"]')元素上，输入数据库
+2020-09-22 17:52:25,805 INFO [page_mis_audit.py(page_mis_audit:55)] - 选择查询状态
+2020-09-22 17:52:25,806 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:52:25,806 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:25,806 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:26,847 INFO [web_base.py(web_base_click_element:19)] - 点击频道：待审核
+2020-09-22 17:52:26,847 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:52:26,847 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:52:26,881 INFO [page_mis_audit.py(page_mis_audit:57)] - 点击搜索按钮
+2020-09-22 17:52:26,882 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:52:26,882 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:52:31,914 INFO [page_mis_audit.py(page_mis_audit:59)] - 开始获取文章ID
+2020-09-22 17:52:31,914 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.cell>span')的文本信息
+2020-09-22 17:52:31,915 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.cell>span')
+2020-09-22 17:52:31,930 INFO [page_mis_audit.py(page_mis_audit:61)] - 获取的文章ID是1305041805259046912
+2020-09-22 17:52:31,930 INFO [page_mis_audit.py(page_mis_audit:62)] - 点击通过按钮
+2020-09-22 17:52:31,930 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:52:31,930 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:52:33,966 INFO [page_mis_audit.py(page_mis_audit:64)] - 点击确认通过按钮
+2020-09-22 17:52:33,966 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary ')
+2020-09-22 17:52:33,966 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary ')
+2020-09-22 17:52:33,996 INFO [test04_mis_audit.py(test_mis_audit:41)] - 断言开始
+2020-09-22 17:52:36,996 INFO [page_mis_audit.py(page_mis_assert:69)] - 修改查询状态，为已通过审核
+2020-09-22 17:52:36,996 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:52:36,996 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:36,996 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:38,036 INFO [web_base.py(web_base_click_element:19)] - 点击频道：审核通过
+2020-09-22 17:52:38,036 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:52:38,036 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:52:38,072 INFO [page_mis_audit.py(page_mis_assert:71)] - 点击查询按钮
+2020-09-22 17:52:38,072 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:52:38,072 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:52:43,108 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='1305041805259046912']")
+2020-09-22 17:52:43,119 INFO [web_base.py(web_base_is_exist:27)] - 找到对应文章ID元素
+2020-09-22 17:52:43,119 INFO [test04_mis_audit.py(test_mis_audit:44)] - 断言正确
+2020-09-22 17:52:43,124 INFO [test04_mis_audit.py(test_mis_audit:38)] - 调用审核文章的组合业务方法
+2020-09-22 17:52:43,124 INFO [page_mis_audit.py(page_mis_audit:47)] - 点击信息管理
+2020-09-22 17:52:44,124 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:52:44,124 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2020-09-22 17:52:44,162 INFO [page_mis_audit.py(page_mis_audit:49)] - 点击内容审核
+2020-09-22 17:52:45,162 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:52:45,162 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2020-09-22 17:52:45,204 INFO [page_mis_audit.py(page_mis_audit:51)] - 输入要搜索的文章标题
+2020-09-22 17:52:46,205 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:52:46,212 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 文章名称"]')
+2020-09-22 17:52:46,234 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 文章名称"]')元素上，输入BBB88805
+2020-09-22 17:52:46,279 INFO [page_mis_audit.py(page_mis_audit:53)] - 输入查询频道
+2020-09-22 17:52:47,279 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:52:47,286 INFO [base.py(base_input:24)] - 清空元素：('css selector', '[placeholder="请输入: 频道"]')
+2020-09-22 17:52:47,304 INFO [base.py(base_input:26)] - 在('css selector', '[placeholder="请输入: 频道"]')元素上，输入数据库
+2020-09-22 17:52:47,345 INFO [page_mis_audit.py(page_mis_audit:55)] - 选择查询状态
+2020-09-22 17:52:47,345 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:52:47,345 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:47,345 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:48,381 INFO [web_base.py(web_base_click_element:19)] - 点击频道：待审核
+2020-09-22 17:52:48,381 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:52:48,381 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="待审核"]')
+2020-09-22 17:52:48,414 INFO [page_mis_audit.py(page_mis_audit:57)] - 点击搜索按钮
+2020-09-22 17:52:48,415 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:52:48,415 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:52:53,449 INFO [page_mis_audit.py(page_mis_audit:59)] - 开始获取文章ID
+2020-09-22 17:52:53,449 INFO [base.py(base_get_text:30)] - 获取元素('css selector', '.cell>span')的文本信息
+2020-09-22 17:52:53,449 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.cell>span')
+2020-09-22 17:52:53,465 INFO [page_mis_audit.py(page_mis_audit:61)] - 获取的文章ID是1305037436534915072
+2020-09-22 17:52:53,465 INFO [page_mis_audit.py(page_mis_audit:62)] - 点击通过按钮
+2020-09-22 17:52:53,465 INFO [base.py(base_click:19)] - 点击元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:52:53,465 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='通过']/..")
+2020-09-22 17:52:55,499 INFO [page_mis_audit.py(page_mis_audit:64)] - 点击确认通过按钮
+2020-09-22 17:52:55,499 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.el-button--primary ')
+2020-09-22 17:52:55,499 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.el-button--primary ')
+2020-09-22 17:52:55,529 INFO [test04_mis_audit.py(test_mis_audit:41)] - 断言开始
+2020-09-22 17:52:58,529 INFO [page_mis_audit.py(page_mis_assert:69)] - 修改查询状态，为已通过审核
+2020-09-22 17:52:58,529 INFO [web_base.py(web_base_click_element:15)] - 点击复选框
+2020-09-22 17:52:58,529 INFO [base.py(base_click:19)] - 点击元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:58,529 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '[placeholder="请选择状态"]')
+2020-09-22 17:52:59,567 INFO [web_base.py(web_base_click_element:19)] - 点击频道：审核通过
+2020-09-22 17:52:59,567 INFO [base.py(base_click:19)] - 点击元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:52:59,567 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', '//*[text()="审核通过"]')
+2020-09-22 17:52:59,598 INFO [page_mis_audit.py(page_mis_assert:71)] - 点击查询按钮
+2020-09-22 17:52:59,598 INFO [base.py(base_click:19)] - 点击元素：('css selector', '.find')
+2020-09-22 17:52:59,598 INFO [base.py(base_get_element:14)] - 正在查找元素：('css selector', '.find')
+2020-09-22 17:53:04,631 INFO [base.py(base_get_element:14)] - 正在查找元素：('xpath', "//*[text()='1305037436534915072']")
+2020-09-22 17:53:04,644 INFO [web_base.py(web_base_is_exist:27)] - 找到对应文章ID元素
+2020-09-22 17:53:04,644 INFO [test04_mis_audit.py(test_mis_audit:44)] - 断言正确
+2020-09-22 17:53:07,874 INFO [remote_connection.py(__init__:116)] - Could not connect to port 4723 on host 127.0.0.1
+2020-09-22 17:53:07,874 INFO [remote_connection.py(__init__:135)] - Could not get IP address for host: 127.0.0.1
+2020-09-22 17:53:08,877 WARNING [connectionpool.py(urlopen:751)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026165617A00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-09-22 17:53:09,878 WARNING [connectionpool.py(urlopen:751)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000261656172B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-09-22 17:53:10,878 WARNING [connectionpool.py(urlopen:751)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026165617BB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-09-22 17:53:13,361 INFO [remote_connection.py(__init__:116)] - Could not connect to port 4723 on host 127.0.0.1
+2020-09-22 17:53:13,361 INFO [remote_connection.py(__init__:135)] - Could not get IP address for host: 127.0.0.1
+2020-09-22 17:53:14,363 WARNING [connectionpool.py(urlopen:751)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000261663DFBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-09-22 17:53:15,365 WARNING [connectionpool.py(urlopen:751)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000261663DFD60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-09-22 17:53:16,366 WARNING [connectionpool.py(urlopen:751)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000261663DF8E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
